@@ -1,0 +1,21 @@
+git branch branch4567890
+git checkout branch4567890
+nano numbers.txt
+^O
+^X
+git commit numbers.txt -m "Git-repos-task3"
+git diff master branch4567890
+git checkout master
+git merge branch1234567
+"""Updating 822e6a8..abcd12b
+Fast-forward (no commit created; -m option ignored)
+ numbers.txt | 3 +++
+ 1 file changed, 3 insertions(+)"""
+git merge branch4567890
+"""Auto-merging numbers.txt
+Merge made by the 'ort' strategy.
+ numbers.txt | 3 +++
+ 1 file changed, 3 insertions(+)"""
+
+
+# Какую-то стратегию использовали под названием 'ort'... Интересно!
